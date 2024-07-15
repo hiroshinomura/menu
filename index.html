@@ -9,8 +9,17 @@
 <body>
     <div class="container">
         <h1>朝ご飯メニュー提案アプリ</h1>
+        <div>
+            <label for="menuType">メニューの種類を選択してください:</label>
+            <select id="menuType">
+                <option value="和食">和食</option>
+                <option value="洋食">洋食</option>
+                <option value="中華">中華</option>
+            </select>
+        </div>
         <button id="suggestButton">メニューを提案</button>
         <h3 id="menu" class="text-success"></h3>
+        <div id="recipe" class="recipe"></div>
     </div>
     <script src="script.js"></script>
 </body>
